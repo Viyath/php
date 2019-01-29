@@ -10,14 +10,18 @@
 </head>
 <body>
     <?php
-            $name = "viyath";
-            if($name = "viyath"){
-                echo "Hello $name!";
-            }elseif($name = "anthony"){
-                echo "Hello $name!";
-            }else{
-                echo "Hello $name!";
-            }
+        $color="blue";
+        switch ($color){
+            case "red":
+                echo "You are qupid";
+                break;
+            case "blue":
+                echo "Just like the sea";
+                break;
+            case "black":
+                echo "colorful";
+                break;
+        }
     ?>
 </body>
 </html>
