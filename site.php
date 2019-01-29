@@ -11,6 +11,7 @@
 <body>
     <?php
         $name="Viyath";
+        global $age;
         $age=25;
         echo"<h1>Welcome to $name 's Portfolio</h1>";
         echo"<hr>";
@@ -19,10 +20,13 @@
 
         function myTest(){
             echo"<p>I am $age years old.</p>";
+            global $num1;
+            $num1 = 2;
+            $num2 = 0;
         }
 
-        echo"<p>I am $age years old.</p>";
         myTest();
+        echo"<p>Display number one $num1 and Two $num2.</p>";
     ?>
 </body>
 </html>
