@@ -12,11 +12,16 @@
     <?php
         $name="Viyath";
         $age=25;
-        echo"<h1>Hello World</h1>";
+        echo"<h1>Welcome to $name 's Portfolio</h1>";
         echo"<hr>";
         echo"<p>This is my First PHP site</p>";
         echo"<p>My name is $name.</p>";
-        echo"<p>I am $age years old.</p>";
+
+        function myTest(){
+            echo"<p>I am $age years old.</p>";
+        }
+
+        myTest();
     ?>
 </body>
 </html>
