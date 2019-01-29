@@ -10,14 +10,12 @@
 </head>
 <body>
     <?php
-        //RETURN FUNCTION
-        function sum($x,$y){
-            $total = $x+$y;
-            return $total;
+        $car = array("Toyota","Mazda","MD","BMW");
+        echo "I like " . $car[0] . ", " . $car[1] . " and " . $car[2] . ".";
+        $arrayLength = count($car);
+        for($x = 0; $x < $arrayLength ; $x++ ){
+            echo "<br> $car[$x]";
         }
-
-        echo "2 + 10 = " . sum(2, 10) . "<br>";
-        echo "7 + 6 = " . sum(7, 6) . "<br>";
     ?>
 </body>
 </html>
