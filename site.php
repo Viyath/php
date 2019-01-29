@@ -10,18 +10,21 @@
 </head>
 <body>
     <?php
-        $color="blue";
-        switch ($color){
-            case "red":
-                echo "You are qupid";
-                break;
-            case "blue":
-                echo "Just like the sea";
-                break;
-            case "black":
-                echo "colorful";
-                break;
+        function setColor($color){
+            switch ($color){
+                case "red":
+                    echo "You are qupid<br>";
+                    break;
+                case "blue":
+                    echo "Just like the sea<br>";
+                    break;
+                case "black":
+                    echo "colorful<br>";
+                    break;
+            }
         }
+        setColor("red");
+        setColor("black");   
     ?>
 </body>
 </html>
