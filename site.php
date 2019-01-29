@@ -10,21 +10,14 @@
 </head>
 <body>
     <?php
-        function setColor($color){
-            switch ($color){
-                case "red":
-                    echo "You are qupid<br>";
-                    break;
-                case "blue":
-                    echo "Just like the sea<br>";
-                    break;
-                case "black":
-                    echo "colorful<br>";
-                    break;
-            }
+        //RETURN FUNCTION
+        function sum($x,$y){
+            $total = $x+$y;
+            return $total;
         }
-        setColor("red");
-        setColor("black");   
+
+        echo "2 + 10 = " . sum(2, 10) . "<br>";
+        echo "7 + 6 = " . sum(7, 6) . "<br>";
     ?>
 </body>
 </html>
