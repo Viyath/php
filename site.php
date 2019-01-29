@@ -21,6 +21,7 @@
             echo"<p>I am $age years old.</p>";
         }
 
+        echo"<p>I am $age years old.</p>";
         myTest();
     ?>
 </body>
