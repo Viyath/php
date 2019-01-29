@@ -10,7 +10,9 @@
 </head>
 <body>
     <?php
-        echo("Hello World");
+        echo"<h1>Hello World</h1>";
+        echo"<hr>";
+        echo"<p>This is my First PHP site</p>";
     ?>
 </body>
 </html>
