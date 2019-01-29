@@ -10,23 +10,14 @@
 </head>
 <body>
     <?php
-        $name="Viyath";
-        global $age;
-        $age=25;
-        echo"<h1>Welcome to $name 's Portfolio</h1>";
-        echo"<hr>";
-        echo"<p>This is my First PHP site</p>";
-        echo"<p>My name is $name.</p>";
-
-        function myTest(){
-            echo"<p>I am $age years old.</p>";
-            global $num1;
-            $num1 = 2;
-            $num2 = 0;
-        }
-
-        myTest();
-        echo"<p>Display number one $num1 and Two $num2.</p>";
+            $name = "viyath";
+            if($name = "viyath"){
+                echo "Hello $name!";
+            }elseif($name = "anthony"){
+                echo "Hello $name!";
+            }else{
+                echo "Hello $name!";
+            }
     ?>
 </body>
 </html>
